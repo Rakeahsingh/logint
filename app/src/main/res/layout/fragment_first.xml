@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+
+
+        <FrameLayout
+            android:id="@+id/firstFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".FirstFragment">
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:padding="30dp"
+                android:text="LOG IN HERE"
+                android:textColor="@color/purple_500"
+                android:textSize="50dp" />
+
+            <EditText
+                android:id="@+id/edit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="100sp"
+                android:drawableLeft="@drawable/ic_baseline_people_24"
+                android:hint="  Enter the Name"
+                android:paddingRight="30dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/edit2"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:inputType="number"
+                android:hint="  Password"
+                android:paddingRight="50dp"
+                android:drawableLeft="@drawable/ic_baseline_lock_24" />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="log in"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="500dp"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/download" />
+
+        </FrameLayout>
+
+</layout>

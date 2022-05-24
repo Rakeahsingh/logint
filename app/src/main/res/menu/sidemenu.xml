@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/dashboard"
+            android:title="Dashboard"
+            android:icon="@drawable/dashboard"/>
+
+        <item
+            android:id="@+id/course"
+            android:title="Course"
+            android:icon="@drawable/book"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Settings">
+
+            <menu>
+
+                <item
+                    android:id="@+id/share"
+                    android:title="Share"
+                    android:icon="@drawable/share"/>
+
+                <item
+                    android:id="@+id/logout"
+                    android:title="Logout"
+                    android:icon="@drawable/logout"/>
+
+
+            </menu>
+
+
+        </item>
+
+    </group>
+
+
+</menu>
